@@ -50,23 +50,23 @@
 	}
 	40% {
 		top: 0px;
-		background-color: red;
+		background-color: orange;
 		transform: scale(1);
 	}
 	60% {
 		top: 250px;
-		background-color: red;
+		background-color: orangered;
 		transform: scale(0.5);
 	}
 
 	80% {
 		top: 0px;
-		background-color: maroon;
+		background-color: red;
 		transform: scale(1);
 	}
 	100% {
 		top: 250px;
-		background-color: ;
+		background-color: maroon;
 		transform: scale(0.5);
 		left: 950px;
 	}
