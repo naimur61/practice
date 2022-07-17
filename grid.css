@@ -1,0 +1,10 @@
+.container {
+	display: grid;
+	grid-template-columns: repeat(4, 200px);
+}
+.item {
+	border: 2px solid blue;
+	font-size: 1.5em;
+	display: flex;
+	justify-content: center;
+}
