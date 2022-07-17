@@ -1,0 +1,19 @@
+.calendar {
+	display: grid;
+	grid-template-columns: repeat(7, 1fr);
+	grid-template-rows: 55px repeat(5, 75px);
+	row-gap: 25px;
+	column-gap: 25px;
+}
+.day,
+.date {
+	background-color: rgba(91, 195, 235, 0.285);
+	border-radius: 20px;
+	font-size: 2em;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.other {
+	color: rgb(142, 138, 138);
+}
