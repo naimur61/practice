@@ -21,6 +21,7 @@
 }
 .field:hover .ball {
 	transform: translate(800px, -100px);
+	zoom: 10px;
 }
 .state {
 	width: 1000px;
@@ -70,4 +71,18 @@
 		transform: scale(0.5);
 		left: 950px;
 	}
+}
+.container {
+	width: 900px;
+	height: 400px;
+	border: 3px dotted blue;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: unset;
+}
+.box {
+	overflow: hidden;
+	width: 50px;
+	border: 3px solid brown;
 }
